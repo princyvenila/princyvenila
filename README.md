@@ -4,7 +4,7 @@
 
 <br/><br/>
 
-<img src="./about-life.svg?v=2" alt="About Princy's work and data interests" width="100%"/>
+<img src="./about-life.svg?v=3" alt="About Princy's work and data interests" width="100%"/>
 
 <br/><br/>
 
@@ -39,7 +39,7 @@
 
 <br/><br/>
 
-<img src="./connect.svg?v=2" alt="Let's connect" width="100%"/>
+<img src="./connect.svg?v=3" alt="Let's connect" width="100%"/>
 
 <a href="https://github.com/princyvenila"><img src="https://img.shields.io/badge/GitHub-Explore%20my%20work-a78bfa?style=for-the-badge&logo=github&logoColor=0d0e16" alt="GitHub profile"/></a>
 <a href="https://github.com/princyvenila?tab=repositories"><img src="https://img.shields.io/badge/Repositories-View%20projects-f472b6?style=for-the-badge&logo=github&logoColor=0d0e16" alt="Repositories"/></a>
