@@ -1,94 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 540" width="1280" height="540" role="img" aria-labelledby="title desc">
-<title id="title">Princy Venila — Data Analytics and Applied Machine Learning</title>
-<desc id="desc">An animated midnight-glass portfolio banner with changing data roles, glowing charts, and a waving illustrated analyst.</desc>
-<defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101426"/><stop offset=".55" stop-color="#0d0e16"/><stop offset="1" stop-color="#171026"/></linearGradient>
- <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee"/><stop offset=".52" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
- <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#142a3a"/><stop offset="1" stop-color="#241636"/></linearGradient>
- <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#a78bfa" opacity=".18"/></pattern>
- <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <style><![CDATA[
-  text{font-family:Inter,Segoe UI,Arial,sans-serif}
-  .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
-  .fade{opacity:0;animation:rise .9s ease-out forwards}
-  .d1{animation-delay:.15s}.d2{animation-delay:.4s}.d3{animation-delay:.65s}
-  @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
-  @keyframes blink{0%,48%{opacity:1}49%,100%{opacity:.18}}
-  @keyframes sweep{0%{transform:translateX(-360px);opacity:0}15%{opacity:.6}75%{opacity:.15}100%{transform:translateX(520px);opacity:0}}
-  @keyframes roleCycle{0%,27%{opacity:1;transform:translateY(0)}32%,100%{opacity:0;transform:translateY(-8px)}}
-  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
-  .role{animation:roleCycle 12s linear infinite}.r2{animation-delay:-4s}.r3{animation-delay:-8s}
-  .cursor{animation:blink 1s steps(2,end) infinite}
-  .float{animation:float 5s ease-in-out infinite}
-  .sweep{animation:sweep 7s ease-in-out infinite}
-  @keyframes wave{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(22deg)}}
-  .wavearm{transform-box:fill-box;transform-origin:20% 85%;animation:wave 1.5s ease-in-out infinite}
-  @media(prefers-reduced-motion:reduce){*{animation:none!important}}
- ]]></style>
-</defs>
-<rect width="1280" height="540" rx="28" fill="url(#bg)"/>
-<rect width="1280" height="540" rx="28" fill="url(#dots)"/>
-<circle cx="1080" cy="80" r="200" fill="#a78bfa" opacity=".05"/>
-<circle cx="950" cy="400" r="250" fill="#22d3ee" opacity=".04"/>
-<rect x="1" y="1" width="1278" height="538" rx="27" fill="none" stroke="url(#aurora)" stroke-opacity=".7"/>
-<path d="M36 80V36H80M1200 36h44v44M36 460v44h44M1200 504h44v-44" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".75"/>
-<g class="fade d1">
- <rect x="78" y="55" width="250" height="34" rx="17" fill="#12252d" stroke="#22d3ee" stroke-opacity=".5"/>
- <circle cx="98" cy="72" r="5" fill="#34d399"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle>
- <text x="113" y="77" fill="#b9f6ff" font-size="12" font-weight="700" letter-spacing="1.5">DATA · CURIOSITY · INSIGHT</text>
-</g>
-<g class="fade d1">
- <text x="80" y="150" fill="#aab2cb" font-size="23">Hi there, I’m</text>
- <text x="76" y="216" fill="#eceef6" font-size="53" font-weight="800" letter-spacing="-1.2">Princy Venila</text>
- <text x="79" y="274" fill="url(#aurora)" font-size="26" font-weight="800" filter="url(#glow)">Turning data into clear insights.</text>
- <rect x="79" y="301" width="8" height="34" rx="4" fill="#22d3ee"/>
- <g class="role"><text x="105" y="325" fill="#eceef6" font-size="23" font-weight="700">Data Analytics Explorer</text></g>
- <g class="role r2"><text x="105" y="325" fill="#eceef6" font-size="23" font-weight="700">Business Insights Builder</text></g>
- <g class="role r3"><text x="105" y="325" fill="#eceef6" font-size="23" font-weight="700">Applied ML Learner</text></g>
- <text x="79" y="371" fill="#aab2cb" font-size="17">Exploring customer patterns, business trends</text>
- <text x="79" y="395" fill="#aab2cb" font-size="17">and machine-learning approaches to risk.</text>
-</g>
-<g class="fade d2">
- <rect x="751" y="94" width="350" height="242" rx="18" fill="#111a2a" stroke="url(#aurora)" stroke-opacity=".7"/>
- <rect x="767" y="110" width="318" height="30" rx="8" fill="#1a2436"/>
- <circle cx="784" cy="125" r="4" fill="#f472b6"/><circle cx="799" cy="125" r="4" fill="#a78bfa"/><circle cx="814" cy="125" r="4" fill="#22d3ee"/>
- <text x="838" y="130" class="mono" font-size="11" fill="#dbe7f7">insight_dashboard.ipynb</text>
- <path d="M778 294H1070M778 257H1070M778 220H1070M778 183H1070" stroke="#2b3b52" stroke-width="1"/>
- <path d="M786 281L835 256L875 269L925 218L972 236L1024 180L1060 194" fill="none" stroke="url(#aurora)" stroke-width="3" filter="url(#glow)"/>
- <g fill="#22d3ee"><circle cx="835" cy="256" r="4"/><circle cx="925" cy="218" r="4"/><circle cx="1024" cy="180" r="4"/></g>
- <rect class="sweep" x="770" y="112" width="24" height="218" fill="#ffffff" opacity=".14" transform="skewX(-10)"/>
- <g transform="translate(779 306)">
-  <rect x="0" y="-29" width="22" height="29" rx="4" fill="#22d3ee" opacity=".85"><animate attributeName="height" values="20;29;20" dur="2.2s" repeatCount="indefinite"/></rect>
-  <rect x="34" y="-40" width="22" height="40" rx="4" fill="#a78bfa" opacity=".9"><animate attributeName="height" values="32;40;32" dur="2.5s" repeatCount="indefinite"/></rect>
-  <rect x="68" y="-21" width="22" height="21" rx="4" fill="#f472b6" opacity=".9"><animate attributeName="height" values="18;28;18" dur="2.1s" repeatCount="indefinite"/></rect>
-  <rect x="102" y="-48" width="22" height="48" rx="4" fill="#22d3ee" opacity=".7"><animate attributeName="height" values="38;48;38" dur="2.6s" repeatCount="indefinite"/></rect>
- </g>
-</g>
-<g class="float">
- <circle cx="1120" cy="190" r="92" fill="#a78bfa" opacity=".06"/>
- <circle cx="1120" cy="190" r="77" fill="none" stroke="#a78bfa" stroke-opacity=".5"><animate attributeName="r" values="77;87;77" dur="7s" repeatCount="indefinite"/></circle>
- <circle cx="1120" cy="190" r="61" fill="none" stroke="#22d3ee" stroke-opacity=".5" stroke-dasharray="4 7"><animateTransform attributeName="transform" type="rotate" from="0 1120 190" to="360 1120 190" dur="24s" repeatCount="indefinite"/></circle>
-</g>
-<g id="analystCharacter" class="float">
- <ellipse cx="1110" cy="455" rx="88" ry="13" fill="#070911" opacity=".48"/>
- <path d="M1082 390L1071 435L1064 450M1130 390L1143 434L1149 450" fill="none" stroke="#f2cebd" stroke-width="10" stroke-linecap="round"/>
- <path d="M1057 451q-3 10 11 10h12l1-6-12-5zM1141 451q-1 10 12 10h12l1-6-13-5z" fill="#f4d56c"/>
- <path d="M1081 317Q1110 302 1139 317L1148 391Q1112 402 1073 391Z" fill="#a78bfa" stroke="#d5b8f4" stroke-width="2"/>
- <path d="M1082 330L1059 354L1048 343" fill="none" stroke="#f2cebd" stroke-width="10" stroke-linecap="round"/>
- <g class="wavearm">
-  <path d="M1137 330L1153 307L1146 282" fill="none" stroke="#f2cebd" stroke-width="10" stroke-linecap="round"/>
-  <circle cx="1146" cy="279" r="8" fill="#f2cebd"/>
-  <animateTransform attributeName="transform" type="rotate" values="-8 1139 333;18 1139 333;-8 1139 333" dur="1.6s" repeatCount="indefinite"/>
- </g>
- <path d="M1079 255Q1073 217 1108 210Q1144 215 1142 253L1133 291Q1120 310 1099 291Z" fill="#16121f"/>
- <ellipse cx="1110" cy="258" rx="31" ry="38" fill="#f2cebd"/>
- <path d="M1079 256Q1073 224 1107 212Q1142 219 1143 249L1125 240L1109 228L1091 242Z" fill="#15121d"/>
- <path d="M1097 260h4M1119 260h4" stroke="#24202b" stroke-width="3" stroke-linecap="round"/>
- <path d="M1103 276q7 5 14 0" fill="none" stroke="#ab6b75" stroke-width="2" stroke-linecap="round"/>
- <path d="M1093 295L1110 315L1128 295" fill="#22d3ee" opacity=".8"/>
-</g>
-<g fill="#a78bfa"><circle cx="716" cy="420" r="4"><animate attributeName="opacity" values=".3;1;.3" dur="2.7s" repeatCount="indefinite"/></circle><circle cx="1191" cy="386" r="5"><animate attributeName="r" values="3;6;3" dur="3s" repeatCount="indefinite"/></circle></g>
-<path d="M54 466H1226" stroke="#28354c"/>
-<text x="54" y="493" fill="#a78bfa" font-size="11" font-weight="800" letter-spacing="2">DATA / BUSINESS / APPLIED ML</text>
-<text x="1225" y="493" fill="#8391ad" font-size="11" text-anchor="end" class="mono">LEARN · ANALYZE · SHARE</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 540" width="1280" height="540" role="img" aria-labelledby="t d">
+<title id="t">Princy Venila — Data Analytics and Applied Machine Learning</title><desc id="d">Animated navy glass hero with cycling data roles, glowing charts and a small waving analyst illustration.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101426"/><stop offset=".55" stop-color="#0d0e16"/><stop offset="1" stop-color="#171026"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee"/><stop offset=".52" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient><pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#a78bfa" opacity=".18"/></pattern><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style><![CDATA[text{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,Consolas,monospace}.fade{opacity:0;animation:rise .9s ease-out forwards}.d1{animation-delay:.2s}.d2{animation-delay:.45s}@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:.18}}@keyframes cycle{0%,27%{opacity:1;transform:translateY(0)}32%,100%{opacity:0;transform:translateY(-8px)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}@keyframes wave{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(22deg)}}.role{animation:cycle 12s linear infinite}.r2{animation-delay:-4s}.r3{animation-delay:-8s}.cursor{animation:blink 1s steps(2,end) infinite}.float{animation:float 5s ease-in-out infinite}.wavearm{transform-box:fill-box;transform-origin:20% 85%;animation:wave 1.5s ease-in-out infinite}@media(prefers-reduced-motion:reduce){*{animation:none!important}}]]></style></defs>
+<rect width="1280" height="540" rx="28" fill="url(#bg)"/><rect width="1280" height="540" rx="28" fill="url(#dots)"/><circle cx="1080" cy="80" r="200" fill="#a78bfa" opacity=".05"/><circle cx="950" cy="400" r="250" fill="#22d3ee" opacity=".04"/><rect x="1" y="1" width="1278" height="538" rx="27" fill="none" stroke="url(#a)" stroke-opacity=".7"/><path d="M36 80V36H80M1200 36h44v44M36 460v44h44M1200 504h44v-44" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".75"/>
+<g class="fade d1"><rect x="78" y="55" width="250" height="34" rx="17" fill="#12252d" stroke="#22d3ee" stroke-opacity=".5"/><circle cx="98" cy="72" r="5" fill="#34d399"><animate attributeName="opacity" values="1;.25;1" dur="2s" repeatCount="indefinite"/></circle><text x="113" y="77" fill="#b9f6ff" font-size="12" font-weight="700" letter-spacing="1.5">DATA · CURIOSITY · INSIGHT</text></g>
+<g class="fade d1"><text x="80" y="150" fill="#aab2cb" font-size="23">Hi there, I’m</text><text x="76" y="216" fill="#eceef6" font-size="53" font-weight="800" letter-spacing="-1.2">Princy Venila</text><text x="79" y="274" fill="url(#a)" font-size="26" font-weight="800" filter="url(#glow)">Turning data into clear insights.</text><rect x="79" y="301" width="8" height="34" rx="4" fill="#22d3ee"/><g class="role"><text x="105" y="325" fill="#eceef6" font-size="23" font-weight="700">Data Analytics Explorer</text></g><g class="role r2"><text x="105" y="325" fill="#eceef6" font-size="23" font-weight="700">Business Insights Builder</text></g><g class="role r3"><text x="105" y="325" fill="#eceef6" font-size="23" font-weight="700">Applied ML Learner</text></g><text x="79" y="371" fill="#aab2cb" font-size="17">Exploring customer patterns, business trends</text><text x="79" y="395" fill="#aab2cb" font-size="17">and machine-learning approaches to risk.</text></g>
+<g class="fade d2"><rect x="751" y="94" width="350" height="242" rx="18" fill="#111a2a" stroke="url(#a)" stroke-opacity=".7"/><rect x="767" y="110" width="318" height="30" rx="8" fill="#1a2436"/><circle cx="784" cy="125" r="4" fill="#f472b6"/><circle cx="799" cy="125" r="4" fill="#a78bfa"/><circle cx="814" cy="125" r="4" fill="#22d3ee"/><text x="838" y="130" class="mono" font-size="11" fill="#dbe7f7">insight_dashboard.ipynb</text><path d="M778 294H1070M778 257H1070M778 220H1070M778 183H1070" stroke="#2b3b52" stroke-width="1"/><path d="M786 281L835 256L875 269L925 218L972 236L1024 180L1060 194" fill="none" stroke="url(#a)" stroke-width="3" filter="url(#glow)"/><g fill="#22d3ee"><circle cx="835" cy="256" r="4"/><circle cx="925" cy="218" r="4"/><circle cx="1024" cy="180" r="4"/></g><g transform="translate(779 306)"><rect x="0" y="-29" width="22" height="29" rx="4" fill="#22d3ee"><animate attributeName="height" values="20;29;20" dur="2.2s" repeatCount="indefinite"/></rect><rect x="34" y="-40" width="22" height="40" rx="4" fill="#a78bfa"><animate attributeName="height" values="32;40;32" dur="2.5s" repeatCount="indefinite"/></rect><rect x="68" y="-21" width="22" height="21" rx="4" fill="#f472b6"><animate attributeName="height" values="18;28;18" dur="2.1s" repeatCount="indefinite"/></rect><rect x="102" y="-48" width="22" height="48" rx="4" fill="#22d3ee"><animate attributeName="height" values="38;48;38" dur="2.6s" repeatCount="indefinite"/></rect></g></g>
+<g class="float"><circle cx="1120" cy="190" r="92" fill="#a78bfa" opacity=".06"/><circle cx="1120" cy="190" r="77" fill="none" stroke="#a78bfa" stroke-opacity=".5"><animate attributeName="r" values="77;87;77" dur="7s" repeatCount="indefinite"/></circle><circle cx="1120" cy="190" r="61" fill="none" stroke="#22d3ee" stroke-opacity=".5" stroke-dasharray="4 7"><animateTransform attributeName="transform" type="rotate" from="0 1120 190" to="360 1120 190" dur="24s" repeatCount="indefinite"/></circle></g>
+<g class="float"><ellipse cx="1110" cy="455" rx="88" ry="13" fill="#070911" opacity=".48"/><path d="M1082 390L1071 435L1064 450M1130 390L1143 434L1149 450" fill="none" stroke="#f2cebd" stroke-width="10" stroke-linecap="round"/><path d="M1057 451q-3 10 11 10h12l1-6-12-5zM1141 451q-1 10 12 10h12l1-6-13-5z" fill="#f4d56c"/><path d="M1081 317Q1110 302 1139 317L1148 391Q1112 402 1073 391Z" fill="#a78bfa" stroke="#d5b8f4" stroke-width="2"/><path d="M1082 330L1059 354L1048 343" fill="none" stroke="#f2cebd" stroke-width="10" stroke-linecap="round"/><g class="wavearm"><path d="M1137 330L1153 307L1146 282" fill="none" stroke="#f2cebd" stroke-width="10" stroke-linecap="round"/><circle cx="1146" cy="279" r="8" fill="#f2cebd"/></g><path d="M1079 255Q1073 217 1108 210Q1144 215 1142 253L1133 291Q1120 310 1099 291Z" fill="#16121f"/><ellipse cx="1110" cy="258" rx="31" ry="38" fill="#f2cebd"/><path d="M1079 256Q1073 224 1107 212Q1142 219 1143 249L1125 240L1109 228L1091 242Z" fill="#15121d"/><path d="M1097 260h4M1119 260h4" stroke="#24202b" stroke-width="3" stroke-linecap="round"/><path d="M1103 276q7 5 14 0" fill="none" stroke="#ab6b75" stroke-width="2" stroke-linecap="round"/><path d="M1093 295L1110 315L1128 295" fill="#22d3ee" opacity=".8"/></g>
+<g fill="#a78bfa"><circle cx="716" cy="420" r="4"><animate attributeName="opacity" values=".3;1;.3" dur="2.7s" repeatCount="indefinite"/></circle><circle cx="1191" cy="386" r="5"><animate attributeName="r" values="3;6;3" dur="3s" repeatCount="indefinite"/></circle></g><path d="M54 466H1226" stroke="#28354c"/><text x="54" y="493" fill="#a78bfa" font-size="11" font-weight="800" letter-spacing="2">DATA / BUSINESS / APPLIED ML</text><text x="1225" y="493" fill="#8391ad" font-size="11" text-anchor="end" class="mono">LEARN · ANALYZE · SHARE</text></svg>
