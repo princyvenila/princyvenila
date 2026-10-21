@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="t d">
-<title id="t">Good work starts with a good conversation</title><desc id="d">A closing invitation to explore Princy's public GitHub projects.</desc>
+<title id="t">Good work starts with a good conversation</title><desc id="d">An animated invitation to explore Princy's public GitHub projects.</desc>
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#23182f"/><stop offset="1" stop-color="#4a2843"/></linearGradient></defs>
 <rect width="1200" height="190" rx="22" fill="url(#bg)" stroke="#775581"/>
 <text x="38" y="39" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="2.2" fill="#e4a7e8">THANKS FOR STOPPING BY</text>
 <text x="38" y="82" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700" fill="#fff7ff">Good work starts with a good conversation.</text>
 <text x="40" y="112" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#dac9e2">Ideas, thoughtful feedback, and learning together are always welcome.</text>
-<g transform="translate(1010 78)" fill="none" stroke="#d9a5ed"><circle r="44" stroke-dasharray="2 7" opacity=".7"/><circle r="29" stroke="#b88bd0"/><path d="M-10 -2q10 -15 20 0M-10 10q10 9 20 0" stroke="#f4d878" stroke-width="2" stroke-linecap="round"/><circle cx="0" cy="1" r="4" fill="#f1a3bd" stroke="none"/></g>
-<path d="M977 29h26m-13 -13v26M1090 132h22m-11 -11v22" stroke="#d88bad" stroke-width="1.5"/>
+<g transform="translate(1010 78)" fill="none" stroke="#d9a5ed"><circle r="44" stroke-dasharray="2 7" opacity=".7"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/></circle><circle r="29" stroke="#b88bd0"><animate attributeName="r" values="29;32;29" dur="3s" repeatCount="indefinite"/></circle><path d="M-10 -2q10 -15 20 0M-10 10q10 9 20 0" stroke="#f4d878" stroke-width="2" stroke-linecap="round"/><circle cx="0" cy="1" r="4" fill="#f1a3bd" stroke="none"><animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/></circle></g>
+<path d="M977 29h26m-13 -13v26M1090 132h22m-11 -11v22" stroke="#d88bad" stroke-width="1.5"><animate attributeName="opacity" values="1;.25;1" dur="2.8s" repeatCount="indefinite"/></path>
 <text x="1160" y="166" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing=".8" fill="#d8c4e1">STAY CURIOUS</text>
 </svg>
