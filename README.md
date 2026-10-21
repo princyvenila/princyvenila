@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./princy-hero.svg?v=1" alt="Princy Venila — Data Analytics, Business Insights, and Applied Machine Learning" width="100%" />
+<img src="./princy-hero.svg?v=2" alt="Princy Venila — Data Analytics, Business Insights, and Applied Machine Learning" width="100%" />
 
 <br/>
 
@@ -16,7 +16,7 @@
 
 <br/>
 
-<img src="./about-space.svg?v=1" alt="About this portfolio: ask better questions, make patterns readable, connect insight to action" width="100%" />
+<img src="./about-space.svg?v=2" alt="About this portfolio: ask better questions, make patterns readable, connect insight to action" width="100%" />
 
 ## Featured work
 
@@ -49,20 +49,20 @@
 
 ## The orbit of a curious analyst
 
-<img src="./analytics-orbit.svg?v=1" alt="Tools and workflow: Python, Pandas, Matplotlib, and Jupyter around a data-with-purpose theme" width="100%" />
+<img src="./analytics-orbit.svg?v=2" alt="Tools and workflow: Python, Pandas, Matplotlib, and Jupyter around a data-with-purpose theme" width="100%" />
 
 ## Portfolio snapshot
 
 <table>
   <tr>
     <td width="190" align="center" valign="middle">
-      <img src="https://avatars.githubusercontent.com/u/150007707?v=4" alt="Princy Venila profile photo" width="150" />
+      <img src="./princy-photo.jpg" alt="Princy Venila — uploaded portrait" width="150" />
       <br/><strong>Princy Venila</strong>
       <br/><sub>DATA · INSIGHT · LEARNING</sub>
     </td>
     <td valign="middle">
       <h3>Patterns are the beginning of a better question.</h3>
-      <p>My public work spans analytics projects and a machine-learning risk concept. I use Python-based analysis to explore patterns, communicate findings, and connect data with practical questions.</p>
+      <p>My public work spans analytics projects and a machine-learning risk concept. I use Python-based analysis to explore patterns, communicate findings, and connect data with practical questions. The hero portrait and profile card use my uploaded photo, with animated orbital details throughout the page.</p>
       <table>
         <tr>
           <td><sub>01 / ANALYTICS</sub><br/><strong>From raw data to insight</strong></td>
@@ -77,7 +77,7 @@
 ## Thanks for stopping by
 
 <div align="center">
-  <img src="./princy-connect.svg?v=1" alt="Good work starts with a good conversation" width="100%" />
+  <img src="./princy-connect.svg?v=2" alt="Good work starts with a good conversation" width="100%" />
   <br/><br/>
   <a href="https://github.com/princyvenila"><img src="https://img.shields.io/badge/Visit%20my-GitHub%20profile-b68af6?style=for-the-badge&logo=github&logoColor=21172f" alt="Visit my GitHub profile" /></a>
   <br/><br/>
