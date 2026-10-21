@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
 <title id="title">About my work and the ideas behind it</title><desc id="desc">An animated overview of Princy's analytics projects, data workflow and professional interests.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#21172f"/><stop offset="1" stop-color="#33213c"/></linearGradient></defs>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111727"/><stop offset="1" stop-color="#0d0e16"/></linearGradient></defs>
 <rect width="1280" height="440" rx="25" fill="url(#bg)"/>
-<text x="38" y="48" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2.4" fill="#dda6ef">A LITTLE ABOUT THIS SPACE</text>
+<text x="38" y="48" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2.4" fill="#a78bfa">A LITTLE ABOUT THIS SPACE</text>
 <text x="38" y="88" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700" fill="#fff6ff">A portfolio shaped by questions, not just charts.</text>
 <text x="38" y="122" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#d8c8e3">I explore datasets, find patterns, and turn analysis into clear, useful takeaways.</text>
 <g font-family="Segoe UI,Arial,sans-serif">
- <rect x="38" y="158" width="375" height="226" rx="20" fill="#30213f" stroke="#755189"/>
- <text x="66" y="194" font-size="12" letter-spacing="2" fill="#e7a9ed">HOW I APPROACH DATA</text>
- <circle cx="71" cy="232" r="5" fill="#eaa6e8"/><text x="91" y="237" font-size="19" font-weight="700" fill="#fff7ff">Ask better questions</text><text x="91" y="260" font-size="14" fill="#d7c8e2">Start with the problem and the data.</text>
- <circle cx="71" cy="294" r="5" fill="#f4a7bf"/><text x="91" y="299" font-size="19" font-weight="700" fill="#fff7ff">Make patterns readable</text><text x="91" y="322" font-size="14" fill="#d7c8e2">Use exploration and clear visual stories.</text>
- <circle cx="71" cy="355" r="5" fill="#f5d875"/><text x="91" y="360" font-size="19" font-weight="700" fill="#fff7ff">Connect insight to action</text>
- <rect x="445" y="158" width="785" height="226" rx="20" fill="#2a203b" stroke="#68507a"/>
- <text x="475" y="194" font-size="12" letter-spacing="2" fill="#e7a9ed">FROM RAW DATA TO INSIGHT</text>
+ <rect x="38" y="158" width="375" height="226" rx="20" fill="#121b2b" stroke="#35415b"/>
+ <text x="66" y="194" font-size="12" letter-spacing="2" fill="#22d3ee">HOW I APPROACH DATA</text>
+ <circle cx="71" cy="232" r="5" fill="#22d3ee"/><text x="91" y="237" font-size="19" font-weight="700" fill="#fff7ff">Ask better questions</text><text x="91" y="260" font-size="14" fill="#d7c8e2">Start with the problem and the data.</text>
+ <circle cx="71" cy="294" r="5" fill="#a78bfa"/><text x="91" y="299" font-size="19" font-weight="700" fill="#fff7ff">Make patterns readable</text><text x="91" y="322" font-size="14" fill="#d7c8e2">Use exploration and clear visual stories.</text>
+ <circle cx="71" cy="355" r="5" fill="#f472b6"/><text x="91" y="360" font-size="19" font-weight="700" fill="#fff7ff">Connect insight to action</text>
+ <rect x="445" y="158" width="785" height="226" rx="20" fill="#111827" stroke="#68507a"/>
+ <text x="475" y="194" font-size="12" letter-spacing="2" fill="#22d3ee">FROM RAW DATA TO INSIGHT</text>
  <text x="475" y="222" font-size="15" fill="#d9cbe4">A repeatable workflow for analytics and applied machine learning.</text>
 </g>
 <g transform="translate(490 244)">
