@@ -1,6 +1,6 @@
 <div align="center">
 
-<table><tr><td width="27%" align="center" valign="middle"><img src="./princy-photo.jpg?v=2" width="220" alt="Princy Venila — profile portrait"/><br/><strong>Princy Venila</strong><br/>Data Analytics · Applied ML</td><td width="73%" valign="middle"><img src="./hero.svg?v=2" alt="Animated data analytics portfolio hero" width="100%"/></td></tr></table>
+<table><tr><td width="27%" align="center" valign="middle"><img src="./princy-photo.jpg?v=2" width="220" alt="Princy Venila — profile portrait"/><br/><strong>Princy Venila</strong><br/>Data Analytics · Applied ML</td><td width="73%" valign="middle"><img src="./hero.svg?v=3" alt="Animated data analytics portfolio hero" width="100%"/></td></tr></table>
 
 <br/><br/>
 
